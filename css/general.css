@@ -92,7 +92,7 @@ a {
 	display: block;
 	padding: .5em;
 }
-}
+
 
 ol {
   list-style-type: lower-roman;
@@ -134,4 +134,15 @@ footer {
     color: white;
     padding: 10px;
   }
+}
+
+#submit {
+  background: #333; 
+  position: relative;
+  color: white;
+  width: 256px;
+  height: 64px;
+  line-height: 64px;
+  transition: all 0.3s;
+  
 }
