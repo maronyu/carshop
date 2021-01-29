@@ -146,3 +146,30 @@ footer {
   transition: all 0.3s;
   
 }
+
+#title {
+  background-image: blue(left),
+                      $green-double,
+                      full($shadow),
+                      blue(left),
+                      blue(top),
+                      full($shadow),
+                      $green-double,
+                      full($shadow)
+    background-size: span(5,1),
+                     span(3,7),
+                     span(1,1),
+                     span(2,1),
+                     span(2,2),
+                     span(1,8),
+                     span(2,6),
+                     span(1,6)
+    background-position: span(1,0),
+                         span(0,1),
+                         span(4,1),
+                         span(5,1),
+                         span(3,3),
+                         span(3,0),
+                         span(5,2),
+                         span(7,2)
+}
